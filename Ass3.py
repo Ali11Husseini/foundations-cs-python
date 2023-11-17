@@ -9,7 +9,7 @@ def addItem():
     for i in items:
         if i[0]==item_name:
             basket.append(i)
-            found=1
+            found=0
             break
     if(found==0):
         print('item not found')
